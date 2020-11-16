@@ -1,4 +1,4 @@
-const DOMAIN = 'https://pgmgent-1920-students.github.io/case1-pgm-website-baas-pgmgent-jarnvans';
+const DOMAIN = 'https://jarnevs.github.io/pgm-website-baas';
 
 class BAAS {
   static getAbout = async () => {
