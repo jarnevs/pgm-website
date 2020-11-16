@@ -1,0 +1,48 @@
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+
+  &.footer__text {
+    font-size: 20px;
+  }
+
+  &.title-text {
+    font-weight: 700;
+  }
+
+  &.title-sidebar {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: $black;
+
+  i {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 30px;
+  }
+}

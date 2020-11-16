@@ -1,0 +1,54 @@
+.pagination {
+  margin-top: 32px;
+
+  i {
+    transition: opacity .5s ease-in-out;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    border-radius: 50px;
+    background: $black;
+    color: $white;
+
+    &.back {
+      margin-right: 30px;
+    }
+
+    &.next {
+      margin-left: 10px;
+    }
+
+    &.hidden-arrow {
+      display: none;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  a {
+    transition: all .2s ease-in-out;
+    display: block;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: none;
+    }
+
+    &.active-page {
+      padding: 5px 10px;
+      border-radius: 50px;
+      background: $black;
+      color: $white;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

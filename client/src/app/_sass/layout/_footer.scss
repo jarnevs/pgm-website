@@ -1,0 +1,48 @@
+.footer {
+  margin-top: 64px;
+  background: $gradient-blue;
+  padding: 24px 0;
+  font-size: 20px;
+
+  &__block {
+    color: $color-white;
+  }
+}
+
+.footer-contact {
+  position: relative;
+
+  &__address {
+    margin-top: 16px;
+
+    p:last-child {
+      margin-top: 16px;
+    }
+  }
+
+  &__social {
+    position: absolute;
+    bottom: 0;
+
+    a {
+      margin-right: 8px;
+      color: $color-white;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+
+  .footer-contact {
+    margin-top:  32px;
+
+    &__social {
+      position: relative;
+    }
+  }
+}

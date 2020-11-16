@@ -1,0 +1,22 @@
+.team-block {
+  transition: transform .5s ease-in-out;
+  transform-origin: left top;
+  transform: scale(0);
+  display: none;
+
+  &--show {
+    display: block;
+    animation: grow 1s;
+    transform: scale(1);
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

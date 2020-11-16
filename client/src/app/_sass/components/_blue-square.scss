@@ -1,0 +1,14 @@
+.blue-square {
+  position: absolute;
+  top: -52px;
+  left: -40%;
+  width: 120%;
+  height: 539px;
+  border-radius: 100px;
+  z-index: -1;
+  background: $gradient-blue;
+
+  &--right {
+    left: 20%;
+  }
+}

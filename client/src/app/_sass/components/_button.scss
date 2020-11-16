@@ -1,0 +1,30 @@
+.cta {
+  margin-top: 32px;
+
+  &__button {
+    text-align: center;
+    transition: background .5s ease-in-out;
+    cursor: pointer;
+    display: block;
+    width: 363px;
+    border: 0;
+    border-radius: 40px;
+    background: $gradient-green;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: $font-bold;
+    color: $white;
+
+    &:hover {
+      background: $color-light-blue;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .cta {
+    &__button {
+      width: 100%;
+    }
+  }
+}

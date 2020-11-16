@@ -1,0 +1,46 @@
+.about-part {
+  margin-bottom: 32px;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  &__content {
+    ul {
+      margin-left: 48px;
+    }
+
+    img {
+      margin-top: 12px;
+      width: 100%;
+    }
+
+    a:not(.cta__button) {
+      font-size: 16px;
+      background: $gradient-blue;
+      color:transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .technologies {
+      margin-top: 12px;
+
+      &__content {
+        margin-top: 12px;
+
+        .technology {
+          width: 33%;
+          text-align: center;
+          i {
+            font-size: 42px;
+            background: $gradient-blue;
+            color:transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+$color-white: #fff;
+$color-black: #232b2b;
+$color-light-blue: #38f9d7;
+$color-lighter-blue: #04befe;
+$color-dark-blue: #4481eb;
+$color-green: #43e97b;
+
+$gradient-green: linear-gradient(to left, $color-green 0%, $color-light-blue 100%);
+$gradient-blue: linear-gradient(to left, $color-dark-blue 0%, $color-lighter-blue 100%);
+
+$font-family: 'Open Sans', sans-serif;
+
+$font-bold: 700;
+$font-regular: 400;

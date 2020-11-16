@@ -1,0 +1,10 @@
+export const HOME = '/';
+export const ABOUT = '/opleiding';
+export const BLOG = '/blog';
+export const POST_DETAIL = '/blog/:id';
+export const CASES = '/cases';
+export const CASE_DETAIL = '/cases/:id';
+export const TEAM = '/wie-is-pgm';
+export const STUDENT_DETAIL = '/wie-is-pgm/:id';
+export const CONTACT = '/contact';
+export const WORK = '/werkplekleren';

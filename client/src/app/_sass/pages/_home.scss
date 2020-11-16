@@ -1,0 +1,30 @@
+.home {
+  p.home-phrase {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+
+  &__block {
+    margin-top: 42px;
+  }
+
+  &__team {
+    margin-top: 104px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    &__block {
+      margin-bottom: 42px;
+    }
+  }
+}
+
+@media (max-width: 1571px) {
+  .home {
+    padding-top: 20px;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+}

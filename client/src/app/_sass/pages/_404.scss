@@ -1,0 +1,19 @@
+.image-404 {
+  width: 50%;
+  margin-bottom: 64px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.title-404 {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 768px) {
+  .image-404 {
+    width: 70%;
+  }
+}

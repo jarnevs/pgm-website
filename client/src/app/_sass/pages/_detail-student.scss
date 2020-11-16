@@ -1,0 +1,26 @@
+.student {
+  margin-bottom: 120px;
+
+  &__quote {
+    p {
+      font-size: 20px;
+      font-weight: $font-bold;
+    }
+  }
+
+  &__block {
+    margin-bottom: 24px;
+
+    p.title-text {
+      margin-bottom: 0px;
+    }
+
+    div {
+      display: inline-block;
+      border-radius: 30px;
+      padding: 2px 24px;
+      background: $gradient-blue;
+      color: $white;
+    }
+  }
+}
